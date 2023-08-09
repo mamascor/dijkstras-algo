@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-gap: 1px;
+  }
+  .node {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  .wall {
+    background-color: black;
+  }
+  .start {
+    background-color: green;
+  }
+  .end {
+    background-color: red;
+  }
+  .visited {
+    background-color: lightblue;
+  }
+  .path {
+    background-color: yellow;
+  }
+  
